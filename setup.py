@@ -20,11 +20,10 @@ setup(
     name = "NavigateAgent",
     author = "Akhil Singh Rana",
     author_email = "er.akhil.singh.rana@gmail.com",
-    description = ("This is a project from UDacity nanodegree program"
+    description = ("This is a project from Udacity nanodegree program"
                     "Advanced  Reinforcement Learning"),
     long_description = read("README.md"),
     install_requires = parse_requiremetns("requirements.txt"),    
     packages=find_packages(),
-    python_requires = 
 
 )
