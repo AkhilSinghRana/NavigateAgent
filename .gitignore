@@ -4,3 +4,5 @@ UnityEnv/*
 env/*
 *.log
 *.egg-info
+*.pyc
+torch
