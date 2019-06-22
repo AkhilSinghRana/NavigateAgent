@@ -1,11 +1,10 @@
 # Udacity Deep Reinforcment Learning Nanodegree 
-# Project 1: Navigation:
+## Project 1: Navigation:
  This is my implementation of Navigation project from Udacity NanoDegree program (Deep Reinforcement Learning)
 
 ### Introduction
 
-The goal for this project is to train an agent to navigate (and collect yellow bananas, while avoiding the blue ones!) in a large, square world.  
-
+The goal for this project is to train an agent to navigate in a large, square world. In addition to navigation, the agent has to learn to collect yellow bananas, while avoiding the blue ones! -ScreenShot[click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  
 
 This task is episodic, and the condition to solve the environment is, to collect an average score of +13 or more, over 100 consecutive episodes.
