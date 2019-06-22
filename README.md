@@ -29,5 +29,5 @@ To train an agent capable of collecting bananas, you should first clone this rep
 
 The best model found was a DQN agent with Batch Normalization, able to solve the environment in only 234 episodes! This was achieved after a careful hyperparameter tuning, leading to a significant improvement compared to the initial base case settings.
 
-![Results for base case and best model settings](https://github.com/thenickben/drlnd-navigation/blob/master/figures/best_vs_basecase-plot.png)
+![Results for base case and best model settings](./Results/BaseScores.png)
 
