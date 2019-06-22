@@ -3,3 +3,5 @@
 UnityEnv/*
 env/*
 *.log
+*.pyc
+torch
