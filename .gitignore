@@ -3,3 +3,4 @@
 UnityEnv/*
 env/*
 *.log
+*.egg-info

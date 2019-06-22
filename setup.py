@@ -15,6 +15,7 @@ def parse_requiremetns(fname):
         required = f.read().splitlines()
     print(required)
     return required
+    
 setup(
     name = "NavigateAgent",
     author = "Akhil Singh Rana",
@@ -22,5 +23,8 @@ setup(
     description = ("This is a project from UDacity nanodegree program"
                     "Advanced  Reinforcement Learning"),
     long_description = read("README.md"),
-    install_requires = parse_requiremetns("requirements.txt"),    packages=find_packages()
+    install_requires = parse_requiremetns("requirements.txt"),    
+    packages=find_packages(),
+    python_requires = 
+
 )
