@@ -4,7 +4,8 @@
 
 ### Introduction
 
-The goal for this project is to train an agent to navigate in a large, square world. In addition to navigation, the agent has to learn to collect yellow bananas, while avoiding the blue ones! -ScreenShot[click here](./Results/EnvironmentIntro.png)
+The goal for this project is to train an agent to navigate in a large, square world. In addition to navigation, the agent has to learn to collect yellow bananas, while avoiding the blue ones! -[ScreenShot](./Results/EnvironmentIntro.png)
+
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  
 
 This task is episodic, and the condition to solve the environment is, to collect an average score of +13 or more, over 100 consecutive episodes.
