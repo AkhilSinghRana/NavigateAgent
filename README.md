@@ -16,20 +16,19 @@ This task is episodic, and the condition to solve the environment is, to collect
 To reproduce the results from this repository, it is suggested to use virtual python environment and python version 3.6. Python 3.7 at the point of creating this repository does not support tensorflow=1.7 which is a dependency of unityagents package. Note* Python3.7 can still be used, if you know how to install pacakages from source, change requirements.txt and use latest version of tensorflow(tested with tf-v1.14). Follow these simple steps to:
 
 ```
- git clone https://github.com/AkhilSinghRana/NavigateAgent.git
- cd NavigateAgent (cloned Repository root)
- virtualenv env_name -p python3
- source env_name/bin/activate #for linux or env_name\Scripts\activate.bat for Windows.
- pip install -e .
- 
+git clone https://github.com/AkhilSinghRana/NavigateAgent.git
+cd NavigateAgent (cloned Repository root)
+virtualenv env_name -p python3
+source env_name/bin/activate #for linux or
+env_name\Scripts\activate.bat #for Windows.
+pip install -e .
+
  ```
- 
-The above code will setup all the required dependencies for you. You are now ready to open the ipython notebook and train the navigation agent!
 
-``` jupyter lab/notebook Navigation_Soln_Vector_ObsState.ipynb  ```
- 
+Note*- Windows users might have problem installing torch, in this case install it from [https://pytorch.org/].
+The above code will setup all the required dependencies for you. 
 
-To train an agent capable of collecting bananas, you should first clone this repo and also download (and locate in the same folder) the unity environment according to the OS you're using. The steps are:
+Next you need to download the unity environment for collecting bananas, you should first clone this repo and also download, the unity environment according to the OS you're using. The steps are:
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
@@ -38,6 +37,11 @@ To train an agent capable of collecting bananas, you should first clone this rep
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
     
    
+You are now ready to open the jupyter notebook and train the navigation agent!
+
+``` jupyter lab/notebook Navigation_Soln_Vector_ObsState.ipynb  ```
+ 
+
 
 ### Results
 
