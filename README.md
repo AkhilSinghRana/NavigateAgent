@@ -4,7 +4,7 @@
 
 ### Introduction
 
-The goal for this project is to train an agent to navigate in a large, square world. In addition to navigation, the agent has to learn to collect yellow bananas, while avoiding the blue ones! -[ScreenShot](./Results/EnvironmentIntro.png)
+The goal for this project is to train an agent to navigate in a large, square world. In addition to navigation, the agent has to learn to collect yellow bananas, while avoiding the blue ones! -![ScreenShot](./Results/EnvironmentIntro.png)
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  
 
@@ -50,7 +50,7 @@ The best model found was a DQN agent with Batch Normalization, able to solve the
 
 | Trained Agent | Training Scores |
 |---------------|-----------------|
-|![](./Results/TrainedBananaCollectorAgent.gif) | ![](./Results/BaseScores.png) |
+|![Results](./Results/TrainedBananaCollectorAgent.gif) | ![Scores](./Results/BaseScores.png) |
 
 
 
