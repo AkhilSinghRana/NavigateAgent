@@ -13,7 +13,14 @@ This task is episodic, and the condition to solve the environment is, to collect
 ### Setup Instructions:
 #### Requirements
 
-The python packages needed are shown in requirements.txt
+To reproduce the results from this repository, it is suggested to use virtual python environment and python version 3.6. Python 3.7 at the point of creating this repository does not support tensorflow=1.7 which is a dependency of unityagents package. Note* Python3.7 can still be used, if you know how to install pacakages from source, change requirements.txt and use latest version of tensorflow(tested with tf-v1.14). Follow these simple steps to:
+
+'''
+ 1. cd NavigateAgent (cloned Repository root)
+ 2. virtualenv env_name -p python3
+ 3. source env_name/bin/activate #for linux or env_name\Scripts\activate.bat for Windows.
+ 4. pip install -e .
+'''
 
 To train an agent capable of collecting bananas, you should first clone this repo and also download (and locate in the same folder) the unity environment according to the OS you're using. The steps are:
 
