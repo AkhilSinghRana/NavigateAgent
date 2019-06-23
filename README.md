@@ -46,6 +46,8 @@ You are now ready to open the jupyter notebook and train the navigation agent!
 ### Results
 
 The best model found was a DQN agent with Batch Normalization, able to solve the environment in only 234 episodes! This was achieved after a careful hyperparameter tuning, leading to a significant improvement compared to the initial base case settings.
+Trained Agent              |  Training Scores
+:-------------------------:|:-------------------------:
+![](./Results/TrainedBananaCollectorAgent.gif)  |  ![](./Results/BaseScores.png)  
 
-![Results for base case and best model settings](./Results/BaseScores.png)  ![TrainedAgent](./Results/TrainedBananaCollectorAgent.gif)
 
