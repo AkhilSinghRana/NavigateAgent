@@ -23,10 +23,16 @@ To reproduce the results from this repository, it is suggested to use virtual py
 
 ```
 git clone https://github.com/AkhilSinghRana/NavigateAgent.git
+
 cd NavigateAgent (cloned Repository root)
+
 virtualenv env_name -p python3
+
 source env_name/bin/activate #for linux or
+
 env_name\Scripts\activate.bat #for Windows.
+
+
 pip install -e .
 
  ```
