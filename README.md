@@ -43,9 +43,19 @@ Next you need to download the unity environment for collecting bananas, you shou
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
     
    
-You are now ready to open the jupyter notebook and train the navigation agent!
+You are now ready to open the jupyter notebook for training and testing the navigation agent!
 
-``` jupyter lab/notebook Navigation_Soln_Vector_ObsState.ipynb  ```
+### Testing/Loading model from checkpoint:
+
+The checkpoint from my training is saved in checkpoints [folder](./checkpoints). Follow the instructions from the provided notebook.
+
+``` jupyter notebook test_TrainedAgent.ipynb ```
+
+### Train your own Agent:
+
+If you are interested to train your own agent follow the instructions from below notebook.
+
+``` jupyter notebook Navigation_Soln_Vector_ObsState.ipynb  ```
  
 
 
