@@ -67,7 +67,7 @@ If you are interested to train your own agent follow the instructions from below
 
 ### Results
 
-I was able to solve the environment in 432 episodes! This was achieved after a careful hyperparameter tuning, leading to a significant improvement compared to the initial base case settings. The trained agent is shown below, the resolution of the animation is low to reduce the size of this repository. You can also see, in the graph on right, how the agent is improving it's score over the episodes. To read about the hyper-Parameters settings, read my [report](./Results/Report.pdf)
+I was able to solve the environment in 432 episodes! This was achieved after a careful hyperparameter tuning, leading to a significant improvement compared to the initial base case settings. The trained agent is shown below, the resolution of the animation is low to reduce the size of this repository. You can also see, in the graph on right, how the agent is improving it's score over the episodes. To read about the hyper-Parameters settings, read my [report](./Report.pdf)
 
 
 | Trained Agent | Training Scores |
