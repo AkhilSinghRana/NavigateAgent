@@ -4,7 +4,22 @@
 
 ### Introduction
 
-The goal for this project is to train an agent to navigate in a large, square world. In addition to navigation, the agent has to learn to collect yellow bananas, while avoiding the blue ones! -![ScreenShot](./Results/EnvironmentIntro.png)
+The goal for this project is to train an agent to navigate in a large, square world. In addition to navigation, the agent has to learn to collect yellow bananas, while avoiding the blue ones! 
+
+| Screenshot of the environement | Obseravation State and Action  |
+|---------------|-----------------|
+|![ScreenShot](./Results/EnvironmentIntro.png)| #### State:
+The state space has 37 dimensions including the velocity of the agent and the position information of surrounding objects.
+#### Action:
+4 discrete actions available:
+
+0 - move forward.
+
+1 - move backward.
+
+2 - turn left.
+
+3 - turn right.|
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  
 
@@ -45,7 +60,7 @@ You are now ready to open the jupyter notebook and train the navigation agent!
 
 ### Results
 
-I was able to solve the environment in 432 episodes! This was achieved after a careful hyperparameter tuning, leading to a significant improvement compared to the initial base case settings. The trained agent is shown below, the resolution of the animation is low to reduce the size of this repository. You can also see, in the graph on right, how the agent is improving it's score over the episodes. To read about the hyper-Parameters settings, you can read my [report](./Results/Report.md)
+I was able to solve the environment in 432 episodes! This was achieved after a careful hyperparameter tuning, leading to a significant improvement compared to the initial base case settings. The trained agent is shown below, the resolution of the animation is low to reduce the size of this repository. You can also see, in the graph on right, how the agent is improving it's score over the episodes. To read about the hyper-Parameters settings, read my [report](./Results/Report.md)
 
 
 | Trained Agent | Training Scores |
