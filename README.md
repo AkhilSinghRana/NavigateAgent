@@ -14,6 +14,8 @@ A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is
 
 This task is episodic, and the condition to solve the environment is, to collect an average score of +13 or more, over 100 consecutive episodes.
 
+You can learn more about the environment from the official Project instructions from Udacity [here](https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation)
+
 ### Setup Instructions:
 #### Requirements
 
