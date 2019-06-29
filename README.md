@@ -8,7 +8,7 @@ The goal for this project is to train an agent to navigate in a large, square wo
 
 | Screenshot of the environement | Obseravation State and Action  |
 |---------------|-----------------|
-|![ScreenShot](./Results/EnvironmentIntro.png)| The environment has state space of 37(Vectorized space including agents velocity and the positions information of surrounding objects) and  4 discrete actions available: 0 - move forward. 1 - move backward. 2 - turn left. 3 - turn right.|
+|![ScreenShot](./Results/EnvironmentIntro.png)      | The environment has state space of 37(Vectorized space including agents velocity and the positions information of surrounding objects) and 4 discrete actions available: 0 - move forward. 1 - move backward. 2 - turn left. 3 - turn right.|
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  
 
