@@ -55,7 +55,7 @@ You are now ready to open the jupyter notebook for training and testing the navi
 
 The checkpoint from my training is saved in checkpoints [folder](./checkpoints). Follow the instructions from the provided notebook.
 
-``` jupyter notebook test_TrainedAgent.ipynb ```
+``` jupyter notebook Navigation_test_Agent.ipynb ```
 
 #### 3. Train your own Agent:
 
