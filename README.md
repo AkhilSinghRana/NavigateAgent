@@ -17,7 +17,7 @@ This task is episodic, and the condition to solve the environment is, to collect
 You can learn more about the environment from the official Project instructions from Udacity [here](https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation)
 
 ### Setup Instructions:
-#### Requirements
+#### 1. Requirements
 
 To reproduce the results from this repository, it is suggested to use virtual python environment and python version 3.6. Python 3.7 at the point of creating this repository does not support tensorflow=1.7 which is a dependency of unityagents package. Note* Python3.7 can still be used, if you know how to install pacakages from source, change requirements.txt and use latest version of tensorflow(tested with tf-v1.14). Follow these simple steps to:
 
@@ -45,13 +45,13 @@ Next you need to download the unity environment for collecting bananas, you shou
    
 You are now ready to open the jupyter notebook for training and testing the navigation agent!
 
-### Testing/Loading model from checkpoint:
+#### 2. Testing/Loading model from checkpoint:
 
 The checkpoint from my training is saved in checkpoints [folder](./checkpoints). Follow the instructions from the provided notebook.
 
 ``` jupyter notebook test_TrainedAgent.ipynb ```
 
-### Train your own Agent:
+#### 3. Train your own Agent:
 
 If you are interested to train your own agent follow the instructions from below notebook.
 
